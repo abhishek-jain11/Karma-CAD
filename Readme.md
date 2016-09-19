@@ -1,3 +1,5 @@
+Maybe We can move this all content to the wiki.
+
 CAD Softwares Used:
 1. AutoCAD - Can't convert dwg files to STEP files. 
 2. AutoCAD Mechanical - Work's fine, but license is not available. STEPIN and STEPOUT Commands to convert.
