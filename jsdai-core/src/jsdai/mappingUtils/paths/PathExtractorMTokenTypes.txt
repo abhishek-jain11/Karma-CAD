@@ -1,0 +1,17 @@
+// $ANTLR 2.7.1: pathExtractorM.g -> PathExtractorMTokenTypes.txt$
+PathExtractorM    // output token vocab name
+INSTR_START=4
+UOF_MAPPING=5
+ENTITY_ATTRIBUTE_MAPPING=6
+AIM_ELEMENT=7
+PATH=8
+END=9
+EXTSTRING=10
+EXTSYMBOL=11
+EXTID=12
+LETTER=13
+DIGIT=14
+ID=15
+SCARF=16
+WS=17
+COMMENT=18
