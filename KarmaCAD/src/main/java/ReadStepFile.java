@@ -27,13 +27,15 @@ public class ReadStepFile {
 	SdaiSession session = SdaiSession.openSession();
 	SdaiTransaction transaction = session.startTransactionReadWriteAccess();
 	
-	SdaiRepository repository = session.importClearTextEncoding("MyRepo3", "/Users/AJ/Documents/Karma-CAD/Circle3_FreeCAD.step", null);
+	SdaiRepository repository = session.importClearTextEncoding("MyRepo6", "/Users/AJ/Documents/Karma-CAD/Circle_Inv.stp", null);
 	transaction.commit();
 	
 	ASdaiModel models = repository.getModels();
 	
+	
 	SdaiIterator modelIterator = models.createIterator();
 	while(modelIterator.next()){
+		try{
 		SdaiModel model = models.getCurrentMember(modelIterator);
 		if(model.getMode()== SdaiModel.NO_ACCESS){
 			model.startReadOnlyAccess();
@@ -43,9 +45,10 @@ public class ReadStepFile {
 		
 		AProduct products = (AProduct) model.getInstances(EProduct.class);
 		
-		SdaiIterator productIterator = products.createIterator();
-		while(productIterator!=null &&productIterator.next()){
-			EProduct product = products.getCurrentMember(productIterator);
+	//	SdaiIterator productIterator = products.createIterator();
+		for(int i=0;i<products.getMemberCount();i++)
+		{
+			EProduct product = products.getByIndex(i);
 			
 			System.out.println("Product Instance number "+product.getPersistentLabel());
 			System.out.println("ID: "+product.getId(null));
@@ -94,13 +97,16 @@ public class ReadStepFile {
 				model.endReadOnlyAccess();
 			}else if(model.getMode() == SdaiModel.READ_WRITE){
 				model.endReadWriteAccess();
+				}
 			}
-		}
+		}finally{
 		repository.closeRepository();
 		repository.deleteRepository();
 		transaction.endTransactionAccessCommit();
 		session.closeSession();
 		System.out.println("Done");
+		 	}
+		}
 	}
-	}
+  
 }
