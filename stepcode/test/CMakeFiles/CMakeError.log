@@ -1,0 +1,60 @@
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_967dd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_967dd.dir/build.make CMakeFiles/cmTC_967dd.dir/build
+Building C object CMakeFiles/cmTC_967dd.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_967dd.dir/CheckIncludeFile.c.o   -c /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_967dd.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_967dd/fast] Error 2
+
+
+Determining if the include file sysent.h exists failed with the following output:
+Change Dir: /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_271b0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_271b0.dir/build.make CMakeFiles/cmTC_271b0.dir/build
+Building C object CMakeFiles/cmTC_271b0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_271b0.dir/CheckIncludeFile.c.o   -c /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sysent.h' file not found
+#include <sysent.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_271b0.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_271b0/fast] Error 2
+
+
+Determining if the include file process.h exists failed with the following output:
+Change Dir: /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7adf9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7adf9.dir/build.make CMakeFiles/cmTC_7adf9.dir/build
+Building C object CMakeFiles/cmTC_7adf9.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_7adf9.dir/CheckIncludeFile.c.o   -c /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'process.h' file not found
+#include <process.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7adf9.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_7adf9/fast] Error 2
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6585/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c6585.dir/build.make CMakeFiles/cmTC_c6585.dir/build
+Building C object CMakeFiles/cmTC_c6585.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_c6585.dir/CheckIncludeFile.c.o   -c /Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/AJ/stepcode/test/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c6585.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_c6585/fast] Error 2
+
+

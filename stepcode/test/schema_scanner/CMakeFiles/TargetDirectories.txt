@@ -1,0 +1,3 @@
+/Users/AJ/stepcode/test/schema_scanner/CMakeFiles/edit_cache.dir
+/Users/AJ/stepcode/test/schema_scanner/CMakeFiles/rebuild_cache.dir
+/Users/AJ/stepcode/test/schema_scanner/CMakeFiles/schema_scanner.dir
